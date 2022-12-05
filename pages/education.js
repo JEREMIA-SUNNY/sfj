@@ -383,6 +383,17 @@ function Education() {
             today and take your career to the next level.
           </p>
         </div>
+        <div className="flex container px-5  mx-auto flex-col md:flex-row gap-12">
+          <p>Certified Learning Partner :</p>
+          <div className="flex flex-row gap-5">
+            <img className="w-[200px] h-[]" src="/edu&car/micro.png" alt="" />{" "}
+            <img
+              className="w-[200px] mt-1 h-[42px]"
+              src="/edu&car/company.png"
+              alt=""
+            />
+          </div>
+        </div>
       </section>
 
       <section className="text-black ">
