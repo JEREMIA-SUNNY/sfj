@@ -514,7 +514,7 @@ function Comptia() {
       <section className="text- container  mx-auto body-font">
         <div className="">
           <p className="text-center mt-12 font-bold text-2xl ">Benefits</p>
-          <div className=" flex md:justify-center flex-col items-center gap-5 ">
+          <div className=" flex md:justify-center flex-col items-center ">
             <div className="w-full md:w-[500px]  text-left">
               {" "}
               <p className=" w-full   text-black mt-4 ">
@@ -872,6 +872,7 @@ function Comptia() {
                           </span>
                           <select
                             defaultValue={defaults}
+                            disabled={true}
                             value={defaults}
                             className=" block w-full border text-black border-green text-sm h-[47px] rounded-sm  focus:border-green focus:ring focus:ring-green focus:ring-opacity-50"
                             {...register("interest", { required: true })}

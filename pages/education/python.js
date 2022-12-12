@@ -464,7 +464,7 @@ function Python() {
       <section className="text- container  mx-auto body-font">
         <div className="">
           <p className="text-center mt-12 font-bold text-2xl ">Prerequisites</p>
-          <div className=" flex md:justify-center flex-col items-center gap-5 ">
+          <div className=" flex md:justify-center flex-col items-center  ">
             <div className="w-full md:w-[1000px]  text-left">
               {" "}
               <p className=" w-full flex  text-black mt-4 ">
@@ -510,7 +510,7 @@ function Python() {
           <p className="text-center mt-12 font-bold text-xl ">
             Course Projects
           </p>
-          <div className="grid mt-5 md:grid-cols-1 grid-cols-1 items-center gap-5 ">
+          <div className="grid mt-5 md:grid-cols-1 grid-cols-1 items-center ">
             <div className="p-1  hover:scale-105 ease-in duration-300  lg:w-full">
               <p className="font-bold text-black text-center mb-4">
                 Analyzing the Naming Pattern Using Python
@@ -863,6 +863,7 @@ function Python() {
                           </span>
                           <select
                             defaultValue={defaults}
+                            disabled={true}
                             value={defaults}
                             className=" block w-full border text-black border-green text-sm h-[47px] rounded-sm  focus:border-green focus:ring focus:ring-green focus:ring-opacity-50"
                             {...register("interest", { required: true })}

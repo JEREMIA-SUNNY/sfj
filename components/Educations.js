@@ -107,7 +107,7 @@ export default function Educations() {
     },
     {
       id: 10,
-      title: "Comp TIA Network+",
+      title: "CompTIA Network+",
       mode: "Virtual",
       point: [],
       Levels: "Beginner",

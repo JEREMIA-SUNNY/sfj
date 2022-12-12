@@ -89,7 +89,7 @@ function WebThree() {
         <div className="w-full    h-full  flex  justify-center">
           <div className="text-white relative   max-auto  h-full flex flex-col justify-center items-center">
             <h1 className=" text-4xl   font-bold  w-full  text-center   text-white   ">
-              WEB 3.0
+              Web 3.0
             </h1>
 
             <p className="text-lg mt-4 flex  gap-8 ">
@@ -244,7 +244,7 @@ function WebThree() {
       <section className="text- container  mx-auto body-font">
         <div className="">
           <p className="text-center mt-12 font-bold text-2xl ">Benefits</p>
-          <div className=" flex md:justify-center flex-col items-center gap-5 ">
+          <div className=" flex md:justify-center flex-col items-center ">
             <div className="w-full md:w-[500px]  text-left">
               {" "}
               <p className=" w-full  text-black mt-4 ">
@@ -300,10 +300,10 @@ function WebThree() {
       <section className="text- container  mx-auto body-font">
         <div className="">
           <p className="text-center mt-12 font-bold text-xl ">Prerequisites</p>
-          <div className=" flex md:justify-center flex-col items-center gap-5  ">
+          <div className=" flex md:justify-center flex-col items-center  ">
             <div className="p-1  hover:scale-105 ease-in duration-300  lg:w-full">
               <div className="h-full   px-8 pt-2  rounded-lg  text-center relative">
-                <p className=" text-center text-black mt-4 mb-4">
+                <p className=" text-center text-black mt-4 ">
                   {" "}
                   <span className="w-fit ">✔️</span>
                   There is no experience or previous qualifications required for
@@ -314,7 +314,7 @@ function WebThree() {
             </div>
             <div className="p-1  hover:scale-105 ease-in duration-300  lg:w-full">
               <div className="h-full   px-8 pt-2  rounded-lg  text-center relative">
-                <p className=" text-center text-black mt-4 mb-4">
+                <p className=" text-center text-black m mb-4">
                   {" "}
                   <span className="w-fit ">✔️</span>
                   Aspiring Developers
@@ -627,16 +627,13 @@ function WebThree() {
                           <select
                             defaultValue={defaults}
                             value={defaults}
+                            disabled={true}
                             className=" block w-full border text-black border-green text-sm h-[47px] rounded-sm  focus:border-green focus:ring focus:ring-green focus:ring-opacity-50"
                             {...register("interest", { required: true })}
                           >
                             {opt.map((item, index) => {
                               return (
-                                <option
-                                  key={index}
-                                  className="text-black"
-                                
-                                >
+                                <option key={index} className="text-black">
                                   {item}
                                 </option>
                               );

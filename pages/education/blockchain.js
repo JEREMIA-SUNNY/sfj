@@ -305,8 +305,7 @@ function Blockchain() {
                     <span className="w-fit ">✔️</span> IPFS
                   </p>
                   <p className="flex">
-                    <span className="w-fit ">✔️</span> BigChainDB    - Ethereum
-                    Platform
+                    <span className="w-fit ">✔️</span> BigChainDB    
                   </p>
                   <p className="font-bold text-black text-left mt-4 mb-4">
                     Ethereum Platform
@@ -360,7 +359,7 @@ function Blockchain() {
                   </p>
                   <p className="flex">
                     <span className="w-fit ">✔️</span> Token contract and
-                    crowdsale
+                    crowd sale
                   </p>
                   <p className="flex">
                     <span className="w-fit ">✔️</span> Native(Platform) currency
@@ -464,7 +463,7 @@ function Blockchain() {
                     Contracts
                   </p>
                   <p className="flex">
-                    <span className="w-fit ">✔️</span> CWriting the Chain Code
+                    <span className="w-fit ">✔️</span> Writing the Chain Code
                   </p>
                   <p className="flex">
                     <span className="w-fit ">✔️</span> Privacy
@@ -511,7 +510,7 @@ function Blockchain() {
       <section className="text- container  mx-auto body-font">
         <div className="">
           <p className="text-center mt-12 font-bold text-2xl ">Benefits</p>
-          <div className=" flex md:justify-center flex-col items-center gap-5 ">
+          <div className=" flex md:justify-center flex-col items-center  ">
             <div className="w-full md:w-[1000px]  text-left">
               {" "}
               <p className=" w-full  text-black mt-4 ">
@@ -557,7 +556,7 @@ function Blockchain() {
         <div className="">
           <p className="text-center mt-12 font-bold text-2xl ">Prerequisites</p>
 
-          <div className="flex md:justify-center flex-col items-center gap-5 ">
+          <div className="flex md:justify-center flex-col items-center  ">
             <div className="w-full md:w-[500px]  text-left">
               {" "}
               <p className=" w-full  text-black mt-4 ">
@@ -568,7 +567,7 @@ function Blockchain() {
 
             <div className="w-full md:w-[500px]  text-left">
               {" "}
-              <p className=" w-full  text-black mt-4 ">
+              <p className=" w-full  text-black  ">
                 <span className=" text-left ">✔️</span> Basic mathematical
                 calculation skills and logical skills
               </p>

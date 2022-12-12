@@ -302,6 +302,10 @@ function Azure() {
                     <span className="w-fit ">✔️</span> Protecting a confidential
                     document using AIP only{" "}
                   </p>
+                  <p className="flex">
+                    <span className="w-fit ">✔️</span>  Protecting a confidential document using both DLP and AIP
+                  </p>
+                 
                 </div>
               </div>
             </div>
@@ -780,6 +784,7 @@ function Azure() {
                           </span>
                           <select
                             value={defaults}
+                            disabled={true}
                             defaultValue={defaults}
                             className=" block w-full border text-black border-green text-sm h-[47px] rounded-sm  focus:border-green focus:ring focus:ring-green focus:ring-opacity-50"
                             {...register("interest", { required: true })}
