@@ -17,6 +17,7 @@ import {
 } from "react-icons/fa";
 import Footprint from "../components/footprint";
 import Itservicescard from "../components/itservicescard";
+import Educations from "../components/Educations";
 
 
 export default function Home() {
@@ -338,7 +339,8 @@ export default function Home() {
             </h1>
             <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
           </div>
-          <div className="md:grid md:grid-cols-4   flex flex-col -m-4">
+          <Educations/>
+          {/* <div className="md:grid md:grid-cols-4   flex flex-col -m-4">
             {Knowledge.map(
               ({ name, icon, description, id, mode, Levels, dur }) => {
                 return (
@@ -355,7 +357,7 @@ export default function Home() {
                 );
               }
             )}
-          </div>
+          </div> */}
           {/* <button className="flex mx-auto mt-16 text-black bg-orange border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Read more
           </button> */}
