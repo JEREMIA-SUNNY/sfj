@@ -713,21 +713,22 @@ function CompTia() {
           </div>
         </div>
       </section>
-
       <section className="text- container  mx-auto body-font">
         <div className="">
-          <p className="text-center mt-12 font-bold text-xl ">Prerequisites</p>
-          <div className="grid md:grid-cols-1 lg:grid-cols-1 items-center  ">
-            <div className="p-1  hover:scale-105 ease-in duration-300  lg:w-full">
-              <div className="h-full   px-8 pt-2  rounded-lg  text-center relative">
-                <p className=" text-center text-black mt-4 ">
-                  <span className="w-full ">✔️</span> Network administrators
-                </p>
-                <p className=" text-center text-black  mb-10">
-                  <span className="w-full ">✔️</span> Students who wish to make
-                  career in Networking
-                </p>
-              </div>
+          <p className="text-center mt-12 font-bold text-2xl ">Prerequisites</p>
+          <div className=" flex md:justify-center flex-col items-center">
+            <div className="w-full md:w-[500px]  text-left">
+              {" "}
+              <p className=" w-full flex  text-black mt-4 ">
+                <span className=" text-left ">✔️</span> Network administrators
+              </p>
+            </div>
+            <div className="md:w-[500px] text-left ">
+              {" "}
+              <p className="w-full text-black flex text-left ">
+                <span className="w-fit  ">✔️</span>Students who wish to make
+                career in Networking
+              </p>
             </div>
           </div>
         </div>
@@ -1035,7 +1036,6 @@ function CompTia() {
                           </span>
                           <select
                             defaultValue={defaults}
-                            disabled={true}
                             value={defaults}
                             className=" block w-full border text-black border-green text-sm h-[47px] rounded-sm  focus:border-green focus:ring focus:ring-green focus:ring-opacity-50"
                             {...register("interest", { required: true })}
@@ -1045,7 +1045,7 @@ function CompTia() {
                                 <option
                                   key={index}
                                   className="text-black"
-                                 
+                                  value={item}
                                 >
                                   {item}
                                 </option>

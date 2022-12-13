@@ -464,36 +464,37 @@ function Python() {
       <section className="text- container  mx-auto body-font">
         <div className="">
           <p className="text-center mt-12 font-bold text-2xl ">Prerequisites</p>
-          <div className=" flex md:justify-center flex-col items-center  ">
-            <div className="w-full md:w-[1000px]  text-left">
+          <div className="flex md:justify-center flex-col items-center   ">
+          <div className="w-full md:w-[700px]  text-left">
               {" "}
               <p className=" w-full flex  text-black mt-4 ">
                 <span className=" text-left ">✔️</span> Basic Computer Skills - Anyone starting to learn computer programming needs basic computer skills. Python is a cross-platform language, so it makes no difference whether you use a macOS, Windows, or even Linux.
               </p>
             </div>
-            <div className="md:w-[200px] text-left ">
+            
+            <div className="md:w-[700px] text-left ">
               {" "}
               <p className="w-full text-black flex text-left ">
                 <span className="w-fit  ">✔️</span> Web Developers
               </p>
             </div>
 
-            <div className="w-full md:w-[200px] text-left">
+            <div className="w-full md:w-[700px] text-left">
               <p className="w-full text-black  ">
                 <span className="w-full ">✔️</span>Python programmers
               </p>
             </div>
-            <div className="w-full md:w-[200px] text-left">
+            <div className="w-full md:w-[700px] text-left">
               <p className="w-full text-black  ">
                 <span className="w-full ">✔️</span> Data scientists
               </p>
             </div>
-            <div className="w-full md:w-[200px] text-left">
+            <div className="w-full md:w-[700px] text-left">
               <p className="w-full text-black  ">
                 <span className="w-full ">✔️</span> UX designers
               </p>
             </div>
-            <div className="w-full md:w-[200px] text-left">
+            <div className="w-full md:w-[700px] text-left">
               <p className="w-full text-black  ">
                 <span className="w-full ">✔️</span>Devops engineers
               </p>
@@ -525,6 +526,7 @@ function Python() {
                   the frequency of baby names from 1880 to 2016.
                 </p>
               </div>
+              
             </div>
             <div className="p-1  hover:scale-105 ease-in duration-300  lg:w-full">
               <p className="font-bold text-black text-center mb-4">
@@ -863,7 +865,7 @@ function Python() {
                           </span>
                           <select
                             defaultValue={defaults}
-                            disabled={true}
+                            
                             value={defaults}
                             className=" block w-full border text-black border-green text-sm h-[47px] rounded-sm  focus:border-green focus:ring focus:ring-green focus:ring-opacity-50"
                             {...register("interest", { required: true })}

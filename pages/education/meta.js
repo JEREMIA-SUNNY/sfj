@@ -201,24 +201,24 @@ function Meta() {
               Job roles that can take up the Metaverse certification training
               courses include, but are not just limited to:
             </p>
-            <div className="md:w-[200px] text-left ">
+            <div className="md:w-[700px] text-left ">
               {" "}
               <p className="w-full text-black flex text-left ">
                 <span className="w-fit  ">✔️</span> App developers
               </p>
             </div>
 
-            <div className="w-full md:w-[200px] text-left">
+            <div className="w-full md:w-[700px] text-left">
               <p className="w-full text-black  ">
                 <span className="w-full ">✔️</span>NFT Enthusiast
               </p>
             </div>
-            <div className="w-full md:w-[200px] text-left">
+            <div className="w-full md:w-[700px] text-left">
               <p className="w-full text-black  ">
                 <span className="w-full ">✔️</span> Blockchain Architect
               </p>
             </div>
-            <div className="w-full md:w-[200px] mb-10 text-left">
+            <div className="w-full md:w-[700px] mb-10 text-left">
               <p className="w-full text-black  ">
                 <span className="w-full ">✔️</span> Meta verse Enthusiast
               </p>
@@ -529,7 +529,7 @@ function Meta() {
                           </span>
                           <select
                             defaultValue={defaults}
-                            disabled={true}
+                           
                             value={defaults}
                             className=" block w-full border text-black border-green text-sm h-[47px] rounded-sm  focus:border-green focus:ring focus:ring-green focus:ring-opacity-50"
                             {...register("interest", { required: true })}

@@ -628,7 +628,7 @@ function AIandMl() {
                             Select Course
                           </span>
                           <select
-                            disabled={true}
+                           
                             defaultValue={defaults}
                             value={defaults}
                             className=" block w-full border text-black border-green text-sm h-[47px] rounded-sm  focus:border-green focus:ring focus:ring-green focus:ring-opacity-50"

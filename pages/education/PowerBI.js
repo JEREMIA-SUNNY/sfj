@@ -239,17 +239,13 @@ function PowerBi() {
       <section className="text- container  mx-auto body-font">
         <div className="">
           <p className="text-center mt-12 font-bold text-xl ">Prerequisites</p>
-          <div className=" md:grid-cols-1 lg:grid-cols-1 items-center gap-5 ">
-            <div className="p-1  hover:scale-105 ease-in duration-300  lg:w-full">
-              <div className="h-full   px-8 pt-2  rounded-lg  text-center relative">
-                <p className=" text-center text-black mt-4 mb-4">
-                  {" "}
-                  <span className="w-fit ">✔️</span>
-                  Business Analysts, Business Development Managers,
-                  Statisticians ,Marketing, finance, sales, and other domain
-                  professionals who need extensive Business .
-                </p>
-              </div>
+          <div className=" flex md:justify-center flex-col items-center">
+          <div className="w-full md:w-[500px] text-left">
+              <p className="w-full text-black  ">
+                <span className="w-full ">✔️</span> Creating customized visuals
+                and deliver are liable analysis of vast amount of data using
+                PowerBI
+              </p>
             </div>
           </div>
         </div>
@@ -556,7 +552,7 @@ function PowerBi() {
                           </span>
                           <select
                             defaultValue={defaults}
-                            disabled={true}
+                           
                             value={defaults}
                             className=" block w-full border text-black border-green text-sm h-[47px] rounded-sm  focus:border-green focus:ring focus:ring-green focus:ring-opacity-50"
                             {...register("interest", { required: true })}

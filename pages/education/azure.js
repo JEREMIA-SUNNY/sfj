@@ -444,14 +444,14 @@ function Azure() {
         <div className="">
           <p className="text-center mt-12 font-bold text-2xl ">Benefits</p>
           <div className=" flex md:justify-center flex-col items-center gap-5 ">
-            <div className="w-full md:w-[600px]  text-left">
+            <div className="w-full md:w-[450px]  text-left">
               {" "}
               <p className=" w-full  text-black mt-4 ">
                 <span className=" text-left ">✔️</span> Azure Information
                 Protection
               </p>
             </div>
-            <div className="md:w-[600px] text-left ">
+            <div className="md:w-[450px] text-left ">
               {" "}
               <p className="w-full text-black flex text-left ">
                 <span className="w-fit  ">✔️</span> Safeguard and maintain
@@ -459,7 +459,7 @@ function Azure() {
               </p>
             </div>
 
-            <div className="w-full md:w-[600px] text-left">
+            <div className="w-full md:w-[450px] text-left">
               <p className="w-full text-black  ">
                 <span className="w-full ">✔️</span> Azure DDos Protection.
               </p>
@@ -468,20 +468,25 @@ function Azure() {
         </div>
       </section>
 
+
       <section className="text- container  mx-auto body-font">
         <div className="">
           <p className="text-center mt-12 font-bold text-2xl ">Prerequisites</p>
-          <div className="grid md:grid-cols-1 lg:grid-cols-1 items-center gap-5 ">
-            <div className="p-1 mb-4  hover:scale-105 ease-in duration-300  lg:w-full">
-              <div className="h-full   px-8 pt-2  rounded-lg  text-center relative">
-                <p className=" text-center text-black mt-4 mb-4">
-                <span className="w-full ">✔️</span>   Basic understanding of cloud and networking
-                </p>
-              </div>
+          <div className=" flex md:justify-center flex-col items-center gap-5 ">
+            <div className="w-full md:w-[450px]  text-left">
+              {" "}
+              <p className=" w-full  text-black mt-4 ">
+                <span className=" text-left ">✔️</span>  Basic understanding of cloud and networking
+              </p>
             </div>
+            
+            
+
+            
           </div>
         </div>
       </section>
+      
       <section className="md:container md:mx-auto">
         <p className="text-center mt-10 mb-10 font-bold text-2xl ">Schedule</p>
         <div className="overflow-x-auto mb-10 sm:-mx-6 lg:-mx-8">
@@ -784,7 +789,7 @@ function Azure() {
                           </span>
                           <select
                             value={defaults}
-                            disabled={true}
+                           
                             defaultValue={defaults}
                             className=" block w-full border text-black border-green text-sm h-[47px] rounded-sm  focus:border-green focus:ring focus:ring-green focus:ring-opacity-50"
                             {...register("interest", { required: true })}

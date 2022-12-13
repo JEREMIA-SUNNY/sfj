@@ -287,7 +287,7 @@ function WebThree() {
               </p>
             </div>
             <div className="w-full md:w-[500px] text-left">
-              <p className="w-full text-black  ">
+              <p className="w-full  text-black  ">
                 <span className="w-full ">✔️</span> Intelligent systems,
                 semantic web, decentralization, metaverse, digital assets, and
                 other emerging technologies
@@ -297,33 +297,32 @@ function WebThree() {
         </div>
       </section>
 
+
       <section className="text- container  mx-auto body-font">
         <div className="">
-          <p className="text-center mt-12 font-bold text-xl ">Prerequisites</p>
-          <div className=" flex md:justify-center flex-col items-center  ">
-            <div className="p-1  hover:scale-105 ease-in duration-300  lg:w-full">
-              <div className="h-full   px-8 pt-2  rounded-lg  text-center relative">
-                <p className=" text-center text-black mt-4 ">
-                  {" "}
-                  <span className="w-fit ">✔️</span>
-                  There is no experience or previous qualifications required for
+          <p className="text-center mt-12 font-bold text-2xl ">Prerequisites</p>
+          <div className=" flex md:justify-center flex-col items-center ">
+            <div className="w-full md:w-[500px]  text-left">
+              {" "}
+              <p className=" w-full flex text-black mt-4 ">
+                <span className=" text-left ">✔️</span> There is no experience or previous qualifications required for
                   enrolment on this course. It is available to all students of
                   all academic backgrounds.
-                </p>
-              </div>
+              </p>
             </div>
-            <div className="p-1  hover:scale-105 ease-in duration-300  lg:w-full">
-              <div className="h-full   px-8 pt-2  rounded-lg  text-center relative">
-                <p className=" text-center text-black m mb-4">
-                  {" "}
-                  <span className="w-fit ">✔️</span>
-                  Aspiring Developers
-                </p>
-              </div>
+            <div className="md:w-[500px] text-left ">
+              {" "}
+              <p className="w-full text-black flex text-left ">
+                <span className="w-fit  ">✔️</span>  Aspiring Developers
+              </p>
             </div>
+
+           
           </div>
         </div>
       </section>
+
+      
       <section className="md:container md:mx-auto">
         <p className="text-center mt-10 mb-10 font-bold text-2xl ">Schedule</p>
         <div className="overflow-x-auto mb-10 sm:-mx-6 lg:-mx-8">
@@ -627,7 +626,7 @@ function WebThree() {
                           <select
                             defaultValue={defaults}
                             value={defaults}
-                            disabled={true}
+                          
                             className=" block w-full border text-black border-green text-sm h-[47px] rounded-sm  focus:border-green focus:ring focus:ring-green focus:ring-opacity-50"
                             {...register("interest", { required: true })}
                           >
