@@ -125,7 +125,7 @@ function Scrum() {
             <div className="px-8 p-4  hover:scale-105 ease-in duration-300  lg:w-full">
               <div className="h-full  pt-2    rounded-lg  text-center relative">
                 <p className="font-bold text-black text-left  mb-4">
-                  Defined Vs EmpiricalProcess
+                  Defined Vs Empirical Process
                 </p>
 
                 <div className="text-black text-left  pb-5">
@@ -136,8 +136,8 @@ function Scrum() {
                     understand agile as an empirical process against the
                     waterfall approach which is a defined process. You will be
                     taught to Plan, Execute, Check and then Adapt. Yes, CSM
-                    course begins with a detailed introduction to the iterative
-                    four-step approach.
+                    course begins with the detailed introduction to the
+                    iterative four-step approach.
                   </p>
                   <p className="flex font-bold mb-2">
                     <span className="w-fit "></span>Introduction to Agile
@@ -146,7 +146,7 @@ function Scrum() {
                     <span className="w-fit ">✔️</span>Learn the need for being
                     agile in your software development projects. Understand the
                     key concepts of the development using the agile approach
-                    which is driven by value. It is a well-organized project
+                    which is driven by value. It is a well- organized project
                     management process. Also, know how to embrace flexible
                     planning methods. Become collaborative with the team, scrum
                     master, and product owner.
@@ -157,15 +157,15 @@ function Scrum() {
                   </p>
                   <p className="flex ml-4">
                     <span className="w-fit ">✔️</span> In order to correct
-                    issues cropping up due to the water fall method,a new
+                    issues cropping up due to the waterfall method, anew
                     development practice was introduced in 2001 by a set of
                     people called as Agile Methodology. The main concept adapted
-                    in Agile is the iterative way.Development and testing happen
-                    in parallel to fix bug sat every stage. A set of software
-                    industry giants met in Snowbird, UT in 2000 to discuss this
-                    method. Then they decided to differentiate agile from the
-                    traditional method with some values and called them
-                    AgileManifesto.
+                    in Agile is the iterative way. Development and testing
+                    happen in parallel to fix bug sat every stage. Set of
+                    software industry giants met in Snowbird, UT in 2000 to
+                    discuss this method. Then they decided to differentiate
+                    agile from the traditional method with some values and
+                    called them Agile Manifesto.
                   </p>
                 </div>
               </div>
@@ -173,7 +173,8 @@ function Scrum() {
 
             <div className="p-4 hover:scale-110  hover:scale-105 ease-in duration-300 lg:w-full">
               <p className="flex font-bold mb-2 ml-4">
-                <span className="w-fit "></span>AgileFramework –A BriefOverview
+                <span className="w-fit "></span>Agile Framework –A Brief
+                Overview
               </p>
               <p className="flex ml-4">
                 <span className="w-fit ">✔️</span>Agile the iterative software
@@ -308,7 +309,7 @@ function Scrum() {
             <div className="p-4 hover:scale-110  hover:scale-105 ease-in duration-300 lg:w-full">
               <div className="h-full   px-8 pt-2  rounded-lg  text-center relative">
                 <p className="font-bold text-black text-left mb-4">
-                  TheFiveScrumValues–CFOR C
+                  The Five Scrum Values–CFOR C
                 </p>
 
                 <div className="text-black text-left   pb-5">
@@ -421,18 +422,18 @@ function Scrum() {
             <div className="p-4 hover:scale-110   ease-in duration-300 lg:w-full">
               <div className="h-full  px-8 pt-2  rounded-lg  text-center relative">
                 <p className="font-bold text-left text-black mb-4">
-                  ProductBacklogRefinement
+                  Product BacklogRefinement
                 </p>
 
                 <div className="text-black text-left   pb-5">
                   <p className="flex">
-                    <span className="w-fit ">✔️</span> The activity involved in
-                    understanding, prioritising and estimating there lated item
-                    before print planning is called product backlog
-                    refinement.In simple words,the process in which the scrum
-                    team decides about the time required to complete each
-                    backlog. Based on this estimate they can refine the number
-                    of backlogs during each sprint.
+                    <span className="w-fit ">✔️</span>The activity involved in
+                    understanding, prioritising and estimating there lated item
+                    before sprint planning called product backlog refinement. In
+                    simple words, the process in which the scrum team decides
+                    about the time required to complete each backlog. Based on
+                    this estimate they can refine the number of backlogs during
+                    each sprint.
                   </p>
                   <p className="flex font-bold">
                     <span className="w-fit "></span> Three Primary Roles
@@ -524,17 +525,17 @@ function Scrum() {
             <div className="p-4 hover:scale-110   ease-in duration-300 lg:w-full">
               <div className="h-full  px-8 pt-2  rounded-lg  text-center relative">
                 <p className="font-bold text-left text-black mb-4">
-                  Definition of Done(DoD)and AcceptanceCriteria
+                  Definition of Done(DoD)and Acceptance Criteria
                 </p>
 
                 <div className="text-black text-left   pb-5">
                   <p className="flex">
                     <span className="w-fit ">✔️</span>Every product backlog item
-                    gets declared as DONE it must be accepted by all team
-                    members and they must in advance know when it is called
-                    DONE. Here the team must be appraised of how a work is done,
-                    what are the standards required to be obeyed, and the
-                    different ways to verify whether it is done.
+                    gets declared as DONE it must be accepted by all team member
+                    sand they must in advance know when it is called DONE. Here
+                    the team must be appraised of how a work is done, what are
+                    the standards required to be obeyed, and the different ways
+                    to verify whether it is done.
                   </p>
                   <p className="flex ">
                     <span className="w-fit ">✔️</span> Each user story will have
@@ -542,22 +543,26 @@ function Scrum() {
                     criteria for that story.
                   </p>
                   <p className="flex font-bold">
-                    <span className="w-fit "></span> AgileRequirements
+                    <span className="w-fit "></span> Agile Requirements
                   </p>{" "}
                   <p className="flex">
                     <span className="w-fit ">✔️</span>The requirement in simple
                     words can be told as a service, feature or a function that
                     is required by the customer. It can be a function,
                     constraint, or business rule that is required to be present
-                    to achieve the goal of the user. backlog.
+                    to achieve the goal of the user.
                   </p>{" "}
                   <p className=" text-left flex text-black ">
-                    <span className="font-bold">✔️ </span> In the agile,the
+                    <span className="font-bold">✔️ </span> In the agile, the
                     requirement is categorized as follows.
                   </p>
                   <p className=" text-left text-black ">
+                    <span className="font-bold">✔️ </span> What it does –the
+                    functionality and the features
+                  </p>
+                  <p className=" text-left text-black ">
                     <span className="font-bold">✔️ </span> How does it perform
-                    Acceptance criteria
+                    –Acceptance criteria
                   </p>
                   <p className=" text-left flex text-black ">
                     <span className="font-bold">✔️ </span> The user story is the
@@ -572,42 +577,41 @@ function Scrum() {
             <div className="p-4 hover:scale-110   ease-in duration-300 lg:w-full">
               <div className="h-full  px-8 pt-2  rounded-lg  text-center relative">
                 <p className="font-bold text-left text-black mb-4">
-                Estimation using Ideal Days and Story points
+                  Estimation using Ideal Days and Story points
                 </p>
 
                 <div className="text-black text-left   pb-5">
                   <p className="flex">
-                    <span className="w-fit ">✔️</span>Estimation can be done using story points or the ideal days.
+                    <span className="w-fit ">✔️</span>Estimation can be done
+                    using story points or the ideal days.
                   </p>
                   <p className="flex ">
-                    <span className="w-fit ">✔️</span> Each user story will have
-                    a specific criteria description called the acceptance
-                    criteria for that story.
+                    <span className="w-fit ">✔️</span>A story point is a
+                    measurement used to calculate the size of the product
+                    backlog items but it does not have any units. Also, it helps
+                    to compare the relatsive size of each backlog with the
+                    other. Fibonacci series is used in the scrum as a scale
+                    called stories for the product back log items.(1, 2,3, 5,
+                    8,13, 21, 34,and so on).The high-level user stories are
+                    called Epics and thes
                   </p>
-                  <p className="flex font-bold">
-                    <span className="w-fit "></span> AgileRequirements
+                  <p className="flex ">
+                    <span className="w-fit "></span> scale used for them
+                    for20,40, 60,100etc.
                   </p>{" "}
                   <p className="flex">
-                    <span className="w-fit ">✔️</span>The requirement in simple
-                    words can be told as a service, feature or a function that
-                    is required by the customer. It can be a function,
-                    constraint, or business rule that is required to be present
-                    to achieve the goal of the user. backlog.
+                    <span className="w-fit ">✔️</span>Ideal days is the time
+                    required to complete each product backlog. This method will
+                    help the naïve team to understand how to complete the
+                    product backlog item. From prior experience and expert
+                    opinion, the ideal days or time for completion of the task
+                    is assigned by the senior officials.
                   </p>{" "}
                   <p className=" text-left flex text-black ">
-                    <span className="font-bold">✔️ </span> In the agile,the
-                    requirement is categorized as follows.
-                  </p>
-                  <p className=" text-left text-black ">
-                    <span className="font-bold">✔️ </span> How does it perform
-                    Acceptance criteria
-                  </p>
-                  <p className=" text-left flex text-black ">
-                    <span className="font-bold">✔️ </span> The user story is the
-                    requirement in agile projects which comprises 3elements
-                    namely theC 3 Card, Conversation and the Confirmation. The
-                    basic format of a user story is As a &lt;role of the
-                    person&gt;,I need&lt;requirement&gt;, So that &lt;goal&gt;.
+                    <span className="font-bold">✔️ </span> Slowly move the team
+                    to story point measuring method once they master the scrum
+                    process,and terminologies like product backlog, sprint
+                    backlog, and increments.
                   </p>
                 </div>
               </div>
@@ -615,47 +619,222 @@ function Scrum() {
             <div className="p-4 hover:scale-110   ease-in duration-300 lg:w-full">
               <div className="h-full  px-8 pt-2  rounded-lg  text-center relative">
                 <p className="font-bold text-left text-black mb-4">
-                  DefinitionofDone(DoD)and AcceptanceCriteria
+                  Sprint Burn down and Release Burn down charts
                 </p>
 
                 <div className="text-black text-left   pb-5">
                   <p className="flex">
-                    <span className="w-fit ">✔️</span>Every product backlog item
-                    gets declared as DONE it must be accepted by all team
-                    members and they must in advance know when it is called
-                    DONE. Here the team must be appraised of how a work is done,
-                    what are the standards required to be obeyed, and the
-                    different ways to verify whether it is done.
+                    <span className="w-fit ">✔️</span>The sprint burn downchart
+                    is used to monitor the progression with in the sprint under
+                    the following situations.
                   </p>
                   <p className="flex ">
-                    <span className="w-fit ">✔️</span> Each user story will have
-                    a specific criteria description called the acceptance
-                    criteria for that story.
+                    <span className="w-fit ">✔️</span>Four or more week longer
+                    sprints
+                  </p>
+                  <p className="flex">
+                    <span className="w-fit ">✔️</span>Bigger team size
+                  </p>{" "}
+                  <p className=" text-left flex text-black ">
+                    <span className="font-bold">✔️ </span> Complex backlog items
+                  </p>
+                  <p className=" text-left flex text-black ">
+                    <span className="font-bold">✔️ </span> It helps the team to
+                    fix issues and achieve the goal without missing by recording
+                    the number of the task not completed on a daily basis. This
+                    will allow predicting if the team can accomplish the task
+                    assigned for the sprint.
+                  </p>
+                  <p className=" text-left flex text-black ">
+                    <span className="font-bold">✔️ </span> Likewise, the release
+                    burn down chart is used to track the progression of the
+                    scrum project as whole. It is a graph drawn with x-axis
+                    showing the spring and the Y-axis the amount of pending work
+                    beginningeachsprint.This can be representedasidealdays,story
+                    points or team days as well. This will pave the way to
+                    predict the completion of the project.
                   </p>
                   <p className="flex font-bold">
-                    <span className="w-fit "></span> AgileRequirements
+                    <span className="w-fit "></span> Release planning using
+                    Velocity
                   </p>{" "}
+                  <p className=" text-left flex text-black ">
+                    <span className="font-bold">✔️ </span> The objective of
+                    release planning is to plan and make the scope, budget, and
+                    date for the incremental delivery in an agile project.
+                    Planning to have multiple sprints until the final product is
+                    released is discussed in the release planning meeting.
+                  </p>
+                  <p className=" text-left flex text-black ">
+                    <span className="font-bold">✔️ </span> Every member of the
+                    scrum team and the stakeholders are part of this release
+                    plan meeting and it happens during each sprint activity.
+                    There lease planning is done with the help of the product
+                    planning output and the pace at which the team completes the
+                    product backlog item per each sprint. This pace is nothing
+                    but the speed of the team and termed as velocity in agile
+                    projects.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-4 hover:scale-110   ease-in duration-300 lg:w-full">
+              <div className="h-full  px-8 pt-2  rounded-lg  text-center relative">
+                <p className="font-bold text-left text-black mb-4">
+                  Cross-functionalist-organizing teams
+                </p>
+
+                <div className="text-black text-left   pb-5">
                   <p className="flex">
-                    <span className="w-fit ">✔️</span>The requirement in simple
-                    words can be told as a service, feature or a function that
-                    is required by the customer. It can be a function,
-                    constraint, or business rule that is required to be present
-                    to achieve the goal of the user. backlog.
+                    <span className="w-fit ">✔️</span>The people responsible for
+                    coding and developing the project is called the development
+                    team. The team that test the bug and fixes the issues is
+                    called the testing team. As far as scrum projects are
+                    considered the entire team is called a scrum team which
+                    includes developers, testers, product owners, scrum master,
+                    and the high level stakeholders. These teams are
+                    self-organizing in agile development and are independent to
+                    complete their task. They don’t require anyone to monitor
+                    but they manage themselves.
+                  </p>
+                  <p className="flex font-bold ">
+                    <span className="w-fit "></span>Five simple steps to create
+                    a working agreement in a Scrum team
+                  </p>
+                  <p className="flex">
+                    <span className="w-fit ">✔️</span>The entire team discuss to
+                    agree upon of a set of protocols. This happens with mutual
+                    consent of the team members and following the five simple
+                    steps will help make a proper working agreement.
                   </p>{" "}
                   <p className=" text-left flex text-black ">
-                    <span className="font-bold">✔️ </span> In the agile,the
-                    requirement is categorized as follows.
-                  </p>
-                  <p className=" text-left text-black ">
-                    <span className="font-bold">✔️ </span> How does it perform
-                    Acceptance criteria
+                    <span className="font-bold">1.</span> Every team member is
+                    given stick-it notes and asked to write their views about
+                    the project,deadline,completion etc.
                   </p>
                   <p className=" text-left flex text-black ">
-                    <span className="font-bold">✔️ </span> The user story is the
-                    requirement in agile projects which comprises 3elements
-                    namely theC 3 Card, Conversation and the Confirmation. The
-                    basic format of a user story is As a &lt;role of the
-                    person&gt;,I need&lt;requirement&gt;, So that &lt;goal&gt;.
+                    <span className="font-bold">2. </span> A good 3minutes is
+                    given to each person to fill the following blank we can
+                    complete the task when we teach write their want.
+                  </p>
+                  <p className="flex ">
+                    <span className="w-fit ">3.</span> They can write 3 to 5
+                    ideas.
+                  </p>{" "}
+                  <p className=" text-left flex text-black ">
+                    <span className="font-bold">4.</span>Ask everyone to read
+                    one idea each and make sure that the other person does not
+                    repeat the same idea.
+                  </p>
+                  <p className=" text-left flex text-black ">
+                    <span className="font-bold">5.</span> Have one person to
+                    make a note of all the ideas on the board.
+                  </p>
+                  <p className=" text-left flex text-black ">
+                    <span className="font-bold">6.</span>Take voting from all to
+                    come to a common working agreement from the list mentioned
+                    in the board.
+                  </p>
+                  <p className=" text-left flex text-black ">
+                    <span className="font-bold">7.</span> Freeze and proceed to
+                    successfully complete the work.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-4 hover:scale-110   ease-in duration-300 lg:w-full">
+              <div className="h-full  px-8 pt-2  rounded-lg  text-center relative">
+                <p className="font-bold text-left text-black mb-4">
+                  Scrum Team Tools and Techniques
+                </p>
+
+                <div className="text-black text-left   pb-5">
+                  <p className="flex">
+                    <span className="w-fit ">✔️</span>There are several
+                    techniques used by the scrum team to implement the project.
+                    Based on the technique chosen a variety of tools are
+                    available to support and speed up the process. Few common
+                    tools and techniques used by the scrum team are listed
+                    below.
+                  </p>
+                  <p className="flex">
+                    <span className="w-fit font-bold">1.</span>Tuckman’s Group
+                    Development Tools and Technique – Forming, Storming,
+                    Norming, Performing, Adjourning.
+                  </p>
+                  <p className="flex">
+                    <span className="w-fit font-bold">2.</span>
+                    ScrumMastertoolsCynefin
+                    Framework–Simple,Complicated,Complex,andChaotic.
+                  </p>
+                  <p className="flex">
+                    <span className="w-fit font-bold">3.</span>The Japanese Shu
+                    HaRi– Shu–self-disciplining, Ha–Innovate things,
+                    Ri–Execution Root cause analysis
+                  </p>
+                  <p className="flex font-bold ">
+                    <span className="w-fit "></span>Agile and Distributed teams
+                  </p>
+                  <p className="flex">
+                    <span className="w-fit ">✔️</span>These days working with
+                    people across the globe on projects cannot be avoided. It is
+                    not possible to meet all at one table to discuss. Therefore
+                    managing teams with documentation might be effective but
+                    time-consuming and hence organization must embrace an agile
+                    way to work with distributed teams. Even though it has its
+                    own flipside, still it is the best way to work with
+                    distributed teams.
+                  </p>{" "}
+                  <p className=" text-left flex text-black ">
+                    <span className="font-bold">✔️</span> Remember that people
+                    remain the same irrespective of the geography and hence
+                    getting work done by setting expectation is quick. Also, use
+                    technology to meet people for daily stand up and execute the
+                    project efficiently.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-4 hover:scale-110   ease-in duration-300 lg:w-full">
+              <div className="h-full  px-8 pt-2  rounded-lg  text-center relative">
+                <p className="font-bold text-left text-black mb-4">
+                  Effective manager’s traits in scrum projects
+                </p>
+
+                <div className="text-black text-left   pb-5">
+                  <p className="flex">
+                    <span className="w-fit ">✔️</span>Scrum process empowers the
+                    team to speak and share their views. Therefore, scrum
+                    managers must understand the team strength and the product
+                    owner need. The manager should discuss with the team and let
+                    know the product owner to decide on the product back log
+                    item. This will motivate the team to work towards delivery.
+                    The manager must never be biased and push team for delivery.
+                    Ensure that the team commits and support them during every
+                    sprint to combat issues. The manager must not think of
+                    bossing around but work along with the team to lead them to
+                    successful completion.
+                  </p>
+                  <p className="flex font-bold">
+                    <span className="w-fit font-bold">1.</span>QA Team and Scrum
+                    Process
+                  </p>
+                  <p className="flex">
+                    <span className="w-fit font-bold">2.</span>
+                    Unlike in waterfall method, QA role is to write test cases
+                    and report bugs, in a scrum team QA has an extended role. QA
+                    team takes part in the daily meetings along with all team
+                    members. They are allowed to discuss with the business
+                    analyst and development team. They are part of the test
+                    planning phase. The team not only writes test cases but also
+                    the acceptance test cases to provide support to the product
+                    owner .Story estimation sessions will not happen without the
+                    QA team. They help in providing more realistic estimates. In
+                    short, the QA team is as equal to the development in the
+                    scrum projects.
                   </p>
                 </div>
               </div>
@@ -671,73 +850,45 @@ function Scrum() {
             <div className="w-full md:w-[500px]  text-left">
               {" "}
               <p className=" w-full flex  text-black mt-4 ">
-                <span className=" text-left ">✔️</span> Design and implement
-                functional networks
+                <span className=" text-left ">✔️</span> A use case in Scrum
+                usually refers to how a software or system will interact with a
+                users or systems.
               </p>
             </div>
             <div className="md:w-[500px] text-left ">
               {" "}
               <p className="w-full text-black flex text-left ">
-                <span className="w-fit  ">✔️</span> Configure, manage, and
-                maintain essential network devices
+                <span className="w-fit  ">✔️</span> Attain Scrum Principles and
+                Skills
               </p>
             </div>
 
             <div className="w-full md:w-[500px] text-left">
               <p className="w-full text-black  ">
-                <span className="w-full ">✔️</span>Use devices such as switches
-                and routers to segment network traffic and create resilient
-                networks
+                <span className="w-full ">✔️</span>Improve Team Collaboration
+                and Management
               </p>
             </div>
             <div className="w-full md:w-[500px] text-left">
               <p className="w-full text-black  ">
-                <span className="w-full ">✔️</span> Identify benefits and
-                drawbacks of existing network configurations
+                <span className="w-full ">✔️</span>Ensure Smooth Agile
+                Implementation
               </p>
             </div>
             <div className="w-full md:w-[500px] text-left">
               <p className="w-full text-black  ">
-                <span className="w-full ">✔️</span> Implement network security,
-                standards and protocols
+                <span className="w-full ">✔️</span> Become Part of a Community
+                of Scrum Experts.
               </p>
             </div>
             <div className="w-full md:w-[500px] text-left">
               <p className="w-full text-black  ">
-                <span className="w-full ">✔️</span> Troubleshoot network
-                problems
+                <span className="w-full ">✔️</span> The scrum master helps
+                to facilitate scrum to the larger team by ensuring the scrum
+                framework is followed. He/she is committed to the scrum values
+                and practices, but should also remain flexible and open to
+                opportunities for the team to improve their workflow.
               </p>
-            </div>
-            <div className="w-full md:w-[500px] text-left">
-              <p className="w-full text-black  ">
-                <span className="w-full ">✔️</span> Support the creation of
-                virtualized networks.
-              </p>
-            </div>
-            <div className="w-full md:w-[700px] text-left">
-              <p className="w-full text-black  ">
-                <span className="w-full ">✔️</span> validates the knowledge and
-                skills needed to troubleshoot, configure and manage both wired
-                and wireless networks CompTIA Network+ certifies a
-                professional-level understanding of emerging technologies
-                including cloud and virtualization technologies
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="text- container  mx-auto body-font">
-        <div className="">
-          <p className="text-center mt-12 font-bold text-xl ">Prerequisites</p>
-          <div className="grid md:grid-cols-1 lg:grid-cols-1 items-center gap-5 ">
-            <div className="p-1  hover:scale-105 ease-in duration-300  lg:w-full">
-              <div className="h-full   px-8 pt-2  rounded-lg  text-center relative">
-                <p className=" text-center text-black mt-4 mb-4">
-                  <span className="w-full ">✔️</span> CompTIA A+ Certification
-                  and at least 9 to 12 months of networking experience
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -1045,16 +1196,13 @@ function Scrum() {
                           </span>
                           <select
                             defaultValue={defaults}
+                            value={defaults}
                             className=" block w-full border text-black border-green text-sm h-[47px] rounded-sm  focus:border-green focus:ring focus:ring-green focus:ring-opacity-50"
                             {...register("interest", { required: true })}
                           >
                             {opt.map((item, index) => {
                               return (
-                                <option
-                                  key={index}
-                                  className="text-black"
-                                  value={item}
-                                >
+                                <option key={index} className="text-black">
                                   {item}
                                 </option>
                               );

@@ -125,6 +125,16 @@ export default function Educations() {
       img: "/eduimg/compi2.png",
       link: "/education/compiSecurity",
     },
+    {
+      id: 12,
+      title: "Scrum Master",
+      mode: "Virtual",
+      point: [],
+      Levels: "Beginner",
+      dur: " 16 Hours",
+      img: "/eduimg/scrum.png",
+      link: "/education/Scrum",
+    },
     // {
     //   id: 11,
     //   title: "Java",
