@@ -139,7 +139,7 @@ function Scrum() {
                     course begins with the detailed introduction to the
                     iterative four-step approach.
                   </p>
-                  <p className="flex font-bold mb-2">
+                  <p className="flex font-bold mt-4 mb-2">
                     <span className="w-fit "></span>Introduction to Agile
                   </p>
                   <p className="flex">
@@ -151,7 +151,7 @@ function Scrum() {
                     planning methods. Become collaborative with the team, scrum
                     master, and product owner.
                   </p>
-                  <p className="flex mb-2 font-bold">
+                  <p className="flex mb-2 mt-4 font-bold">
                     <span className="w-fit "></span>Trivia About Agile
                     Methodology
                   </p>
@@ -395,7 +395,7 @@ function Scrum() {
                     the three main artifacts are product backlog, sprint
                     backlog, and increments.
                   </p>
-                  <p className=" text-left text-black ">
+                  <p className=" text-left mt-4 text-black ">
                     <span className="font-bold"> product backlog–</span>The list
                     of deliverables required from each individual is called the
                     product backlog. The product owner will list the work and
@@ -403,7 +403,7 @@ function Scrum() {
                     prioritized and one on the top needs immediate action.
                   </p>
 
-                  <p className=" text-left text-black ">
+                  <p className=" text-left mt-4 text-black ">
                     <span className="font-bold"> Sprint backlog–</span>The list
                     of work taken for completion during as print meeting is
                     called sprint back log. During daily scrum, the team updates
@@ -435,7 +435,7 @@ function Scrum() {
                     this estimate they can refine the number of backlogs during
                     each sprint.
                   </p>
-                  <p className="flex font-bold">
+                  <p className="flex  mt-4 mb-2 font-bold">
                     <span className="w-fit "></span> Three Primary Roles
                     Identified in Scrum Projects
                   </p>
@@ -445,7 +445,7 @@ function Scrum() {
                     development team and the scrum master. These role are looked
                     up on based on their command and responsibility.
                   </p>
-                  <p className="flex font-bold">
+                  <p className="flex mt-4 font-bold">
                     <span className="w-fit "></span> Product Owner
                   </p>{" "}
                   <p className="flex">
@@ -455,14 +455,14 @@ function Scrum() {
                     understands the customer need and creates the product
                     backlog.
                   </p>{" "}
-                  <p className=" text-left text-black ">
+                  <p className=" text-left mt-4 text-black ">
                     <span className="font-bold">Development Team-</span>The set
                     of people who are involved in writing code and developing
                     the project is called the development team. These people
                     will be assigned product back log and will focus on
                     completing the same.
                   </p>
-                  <p className=" text-left text-black ">
+                  <p className=" text-left mt-4 text-black ">
                     <span className="font-bold">ScrumMaster –</span>The scrum
                     process is implemented with the help of the scrum
                     master.This individual bridges gap between the team and the
@@ -489,7 +489,9 @@ function Scrum() {
                       priorities the product backlog and the team will discuss
                       ask questions be fore accepting the backlogs.
                     </p>
-                    <p className="flex font-bold">Executing the Sprint Plan</p>
+                    <p className="flex mt-4 mb-2 font-bold">
+                      Executing the Sprint Plan
+                    </p>
                     <p className="flex">
                       <span className="w-fit ">✔️</span> Sprint execution is the
                       next step after the planning is over. The team has
@@ -499,7 +501,7 @@ function Scrum() {
                       hurdles,these issues will be discussed during the next
                       sprint meeting and the sprint backlog will be executed.
                     </p>
-                    <p className="flex font-bold">
+                    <p className="flex mt-4 mb-2 font-bold">
                       <span className="w-fit "></span> Daily Scrum Meeting and
                       Sprint Retrospective Meeting
                     </p>{" "}
@@ -542,7 +544,7 @@ function Scrum() {
                     a specific criteria description called the acceptance
                     criteria for that story.
                   </p>
-                  <p className="flex font-bold">
+                  <p className="flex mt-4 mb-2 font-bold">
                     <span className="w-fit "></span> Agile Requirements
                   </p>{" "}
                   <p className="flex">
@@ -593,11 +595,8 @@ function Scrum() {
                     other. Fibonacci series is used in the scrum as a scale
                     called stories for the product back log items.(1, 2,3, 5,
                     8,13, 21, 34,and so on).The high-level user stories are
-                    called Epics and thes
-                  </p>
-                  <p className="flex ">
-                    <span className="w-fit "></span> scale used for them
-                    for20,40, 60,100etc.
+                    called Epics and these scale used for them for20,40,
+                    60,100etc.
                   </p>{" "}
                   <p className="flex">
                     <span className="w-fit ">✔️</span>Ideal days is the time
@@ -654,7 +653,7 @@ function Scrum() {
                     points or team days as well. This will pave the way to
                     predict the completion of the project.
                   </p>
-                  <p className="flex font-bold">
+                  <p className="flex mt-4 mb-2 font-bold">
                     <span className="w-fit "></span> Release planning using
                     Velocity
                   </p>{" "}
@@ -698,7 +697,7 @@ function Scrum() {
                     complete their task. They don’t require anyone to monitor
                     but they manage themselves.
                   </p>
-                  <p className="flex font-bold ">
+                  <p className="flex mt-4 mb-2 font-bold ">
                     <span className="w-fit "></span>Five simple steps to create
                     a working agreement in a Scrum team
                   </p>
@@ -766,7 +765,7 @@ function Scrum() {
                   </p>
                   <p className="flex">
                     <span className="w-fit font-bold">2.</span>
-                    ScrumMastertoolsCynefin
+                    Scrum Master tools Cynefin
                     Framework–Simple,Complicated,Complex,andChaotic.
                   </p>
                   <p className="flex">
@@ -774,7 +773,7 @@ function Scrum() {
                     HaRi– Shu–self-disciplining, Ha–Innovate things,
                     Ri–Execution Root cause analysis
                   </p>
-                  <p className="flex font-bold ">
+                  <p className="flex mt-4 mb-2 font-bold ">
                     <span className="w-fit "></span>Agile and Distributed teams
                   </p>
                   <p className="flex">
@@ -818,7 +817,7 @@ function Scrum() {
                     bossing around but work along with the team to lead them to
                     successful completion.
                   </p>
-                  <p className="flex font-bold">
+                  <p className="flex  mt-4 mb-2 font-bold">
                     <span className="w-fit font-bold">1.</span>QA Team and Scrum
                     Process
                   </p>
